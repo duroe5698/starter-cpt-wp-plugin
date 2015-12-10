@@ -2,7 +2,7 @@
 /*
 * Plugin Name: Starter CPT WP Plugin
 * Description: Adds custom post type and custom metabox functionality.
-* Version: 1.0
+* Version: 1.0.0
 * Author: New Wave Media Design
 * Author URI: http://www.newwavemediadesign.com
 * License: GPL2
@@ -35,7 +35,7 @@ $args = array(
     'has_archive' => false, 
     'hierarchical' => false,
     'menu_position' => null,
-    'supports' => array('title, editor, thumbnail'),
+    'supports' => array('title', 'editor', 'thumbnail'),
 ); 
 
 register_post_type( 'custom-post-type', $args );
