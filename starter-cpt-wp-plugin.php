@@ -7,7 +7,6 @@
 * Author URI: http://www.newwavemediadesign.com
 * License: GPL2
 */
-
 //* Create Custom Post Type
 function md_register_custom_post_type() {
 $labels = array(
